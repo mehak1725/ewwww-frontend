@@ -1,1 +1,36 @@
+<!-- scanner.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EWWWW | Waste Scanner</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-green-50 min-h-screen font-sans">
+
+  <!-- Nav -->
+  <nav class="flex justify-between items-center px-6 py-4 bg-white shadow">
+    <a href="index.html">
+      <img src="public/assets/logo.png.png" alt="EWWWW Logo" class="w-10 h-10"/>
+    </a>
+    <a href="index.html" class="text-green-700 font-bold hover:underline">← Back to Home</a>
+  </nav>
+
+  <!-- Scanner Content -->
+  <div class="p-8 text-center">
+    <h1 class="text-3xl font-bold text-green-700 mb-4">Waste Scanner</h1>
+    <p class="mb-6 text-gray-700">Upload an image to scan and get eco feedback</p>
+
+    <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg p-6">
+      <input type="file" class="mb-4 block w-full text-sm text-gray-700 border border-gray-300 rounded" />
+      <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full">Scan Waste</button>
+    </div>
+
+    <div class="mt-6">
+      <p class="text-gray-600 italic">Results will appear here (connect to backend later)</p>
+    </div>
+  </div>
+</body>
+</html>
 
